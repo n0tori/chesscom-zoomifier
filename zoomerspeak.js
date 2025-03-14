@@ -69,7 +69,7 @@ function translateToZoomerSpeak(text) {
 }
 
 function replaceGameReviewDialogue() {
-  const dialogueElements = document.querySelectorAll('.analysis-type-component span');
+	const dialogueElements = document.querySelectorAll('.move-feedback-speech-text-component span');
   
   dialogueElements.forEach(element => {
     // Store original text if not already stored
